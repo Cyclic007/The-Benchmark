@@ -1,0 +1,10 @@
+Problem:
+    benchmark the computer
+
+algorithum:
+    Menu to select test
+tests:
+    mutiply matricies
+    generate matrices
+    fibinatie
+    prime numbers
