@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
-//TODO: change the vector to an array
-//TODO: Make the fib test
-//TODO: make the gen Matrix test
+
 using namespace std;
 
 int checkingPrimes(int n,std::vector<int> primes,int maxPrime);
@@ -11,8 +9,7 @@ int fibonacci(int num1, int num2, int max);
 int matrixmult();
 
 // int genMatrix();
-
-int main() {
+void menu() {
     char selection = 'e';
     std::cout << "Welcome to The Benchmark!\n";
     std::cout << "what test would you like to \n";
@@ -24,13 +21,13 @@ int main() {
     //this will direct you to the specific test
     switch (selection) {
         case '1':
-    cout << "your return code is " << matrixmult();
-    break;
-    case '2':
-        primeNumber();
+            cout << "your return code is " << matrixmult();
         break;
-    case '3':
-        intin =100000;
+        case '2':
+            primeNumber();
+        break;
+        case '3':
+            intin =100000;
         cout << "what will the max we will calc to";
         cin >> intin;
         if(std::cin.fail()) {
@@ -39,14 +36,15 @@ int main() {
         }
         fibonacci(1,1,intin);
         break;
-    //     case '4':
-    //         genMatrix();
-    //         break;
-    default:
-        std::cout << "Invalid selection.\n";
-        return main();
+        default:
+            std::cout << "Invalid selection.\n";
+        return menu();
     }
+}
 
+int main() {
+    menu();
+    char selection = 'e';
     //This will exit the program
     std::cout << "\nIf You would like to exit input 0 if not input anything else";
     std::cin >> selection;
@@ -69,9 +67,6 @@ int primeNumber() {
         std::cin.ignore();
         return primeNumber();
     }
-
-
-
 }
 
 int checkingPrimes(int n,std::vector<int> primes,int maxPrime) {
