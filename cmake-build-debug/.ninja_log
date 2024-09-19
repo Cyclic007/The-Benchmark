@@ -1,3 +1,13 @@
 # ninja log v6
-5	382	7482913859597468	CMakeFiles/EndOfUnit4Project.dir/main.cpp.obj	8a2c4290397da2a7
-383	457	7482913863376351	EndOfUnit4Project.exe	aecb15670ead210
+4	473	7483775125549400	CMakeFiles/EndOfUnit4Project.dir/main.cpp.obj	99cc61ff66dd2e46
+474	750	7483775130243017	EndOfUnit4Project.exe	aecb15670ead210
+12	1322	7484636337090022	CMakeFiles/EndOfUnit4Project.dir/main.cpp.obj	99cc61ff66dd2e46
+1323	1671	7484636350200542	EndOfUnit4Project.exe	aecb15670ead210
+59	2271	7484637022122091	CMakeFiles/EndOfUnit4Project.dir/main.cpp.obj	99cc61ff66dd2e46
+2272	2645	7484637044259917	EndOfUnit4Project.exe	aecb15670ead210
+9	959	7484637910106064	CMakeFiles/EndOfUnit4Project.dir/main.cpp.obj	99cc61ff66dd2e46
+962	1256	7484637919641950	EndOfUnit4Project.exe	aecb15670ead210
+33	1111	7484638098552836	CMakeFiles/EndOfUnit4Project.dir/main.cpp.obj	99cc61ff66dd2e46
+1112	1295	7484638109340382	EndOfUnit4Project.exe	aecb15670ead210
+37	939	7484640234167556	CMakeFiles/EndOfUnit4Project.dir/main.cpp.obj	99cc61ff66dd2e46
+940	1101	7484640243198668	EndOfUnit4Project.exe	aecb15670ead210
